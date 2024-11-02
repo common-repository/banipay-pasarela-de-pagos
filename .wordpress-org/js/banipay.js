@@ -55,7 +55,6 @@ function paymentBaniPay(affiliateId) {
 		"code": BaniPay.externalCode,
 		"currency": BaniPay.currency,
 		"description": BaniPay.description,
-		"productName": BaniPay.description,
 		"expirationDate": futureDate.toISOString()
 	};
 	xhttp.send(JSON.stringify(json));
